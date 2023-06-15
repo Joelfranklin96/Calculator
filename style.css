@@ -1,0 +1,74 @@
+:root{
+	--color-1: rgb(195, 195, 158);
+    --color-2: rgb(192, 18, 18);
+    --color-3: rgb(248, 202, 202);
+}
+
+#container{
+    height: 410px;
+    width: 248px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: var(--color-3);
+}
+
+#blank{
+    height: 100px;
+    width: 248px;
+}
+
+.square-one, .square-two{
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+}
+
+.square-one{
+    background-color: var(--color-1);
+}
+
+.square-one:hover{
+    background-color: orange;
+}
+
+.square-two{
+    background-color: var(--color-2);
+}
+
+.square-two:hover{
+    background-color: orange;
+}
+
+#content{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.content-1, .content-2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content-2{
+    color: white;
+}
+
+.square-three{
+    height: 60px;
+    width: 122px;
+    background-color: var(--color-1);
+    margin: 1px;
+}
+
+.square-three:hover{
+    background-color: orange;
+}
